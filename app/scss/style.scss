@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.page {
+  max-width: 1920px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.btn-main {
+  max-width: 235px;
+  width: 100%;
+  border: none;
+  height: 54px;
+  background: #fa4a33;
+  color: #fff;
+  font-family: SourceSansProRegular;
+  font-size: 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  display: block;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    opacity: .9;
+    font-size: 22px;
+
+  }
+}
+
+
+
+
+
+
+
+@import "social-top";
+@import "header";
+@import "home";
+@import "about";
+@import "why-us";
+@import "contacts";
+
+
+@import "media";

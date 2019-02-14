@@ -1,0 +1,25 @@
+@font-face {
+    font-family: MontserratExtraBold;
+    src: url("../fonts/Montserrat-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url("../fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: SourceSansProSemibold;
+    src: url("../fonts/SourceSansPro-Semibold.otf");
+}
+
+@font-face {
+    font-family: SourceSansProBold;
+    src: url("../fonts/SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: SourceSansProRegular;
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+

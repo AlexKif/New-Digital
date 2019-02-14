@@ -1,0 +1,38 @@
+.contacts {
+  background: url("../img/contact-bg.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  &-headline {
+    color: #fff;
+  }
+  &-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  &-box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    &__text {
+      max-width: 220px;
+      color: #fff;
+      font-family: SourceSansProBold;
+      font-size: 19px;
+      &-link {
+        color: #fff;
+      }
+    }
+    &__triangle {
+      color: #fff;
+      .fa-map-marker-alt {
+        position: absolute;
+        left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.why-us {
+  padding: 110px 0;
+  &-headline {
+    text-align: left;
+  }
+  &-wrap {
+
+  }
+  &-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 7px;
+  }
+  &-left {
+    max-width: 707px;
+    width: 100%;
+    align-self: center;
+    &__text {
+      font-family: SourceSansProBold;
+      font-size: 19px;
+      color: #4f4f4f;
+
+    }
+  }
+  &-right {
+    position: relative;
+    left: 10%;
+    &__img {
+      max-width: 592px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+
+//150 114

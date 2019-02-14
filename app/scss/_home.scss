@@ -1,0 +1,118 @@
+.home-wrap {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 95px 0 118px;
+}
+
+.home {
+  background: url("../img/bg-post.jpg") center center no-repeat;
+  background-size: cover;
+  border-top: 8px solid #009ce3;
+
+  &-headline {
+    font-family: MontserratExtraBold;
+    font-size: 70px;
+  }
+  &-price {
+    height: 80px;
+    width: 362px;
+    padding-left: 76px;
+    background: #fff;
+    font-family: MontserratExtraBold;
+    border-radius: 15px 0 0 15px;
+    position: relative;
+    margin: 15px 0;
+    &:after {
+      content: "";
+      width: 66px;
+      height: 64px;
+      background: #fff;
+      border-radius: 15px;
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 8px;
+      right: -34px;
+    }
+    &:before {
+      content: "";
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      background: #155fa8;
+      position: absolute;
+      left: 27px;
+      top: 24px;
+    }
+    &__item {
+      color: #fa4a33;
+      font-size: 50px;
+      position: relative;
+      z-index: 1;
+      line-height: 80px;
+    }
+  }
+  &-description {
+    font-size: 38px;
+    font-family: SourceSansProSemibold;
+  }
+}
+
+.contact {
+  font-family: SourceSansProBold;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 750px;
+  justify-content: space-between;
+  width: 100%;
+  a {
+    color: #fff;
+    &:hover {
+      color: #009ce3;
+    }
+  }
+  &-headline {
+    font-family: MontserratBold;
+    font-size: 36px;
+    margin: 40px 0 35px;
+  }
+  &-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &-skype {
+    clip-path: polygon(3px 28px, 97.44% 3.90%, 77px 95.83%);
+    background: #009be2;
+    width: 80px;
+    height: 85px;
+    position: relative;
+    margin-right: 10px;
+    i {
+      position: absolute;
+      top: 25px;
+      left: 43px;
+      font-size: 30px;
+    }
+  }
+  &-email {
+    clip-path: polygon(76px 38px, 2.44% 5.08%, 15px 101.72%);
+    background: #009be2;
+    width: 80px;
+    height: 85px;
+    position: relative;
+    margin-right: 10px;
+    i {
+      position: absolute;
+      top: 28px;
+      left: 16px;
+      font-size: 30px;
+    }
+
+  }
+}
+

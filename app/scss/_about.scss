@@ -1,0 +1,134 @@
+.about {
+  padding: 80px 0 100px;
+}
+
+.h3-headline {
+  text-align: center;
+  font-size: 38px;
+  font-family: MontserratExtraBold;
+  color: #3c3c3c;
+  span {
+    color: #fa4a33;
+  }
+}
+
+.about-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 39px;
+  flex-wrap: nowrap;
+  &__left {
+    margin-left: 10%;
+    position: relative;
+    &-bg {
+      width: 520px;
+      height: 350px;
+      border-right: 12px solid #049de2;
+      border-bottom: 15px solid #049de2;
+      transform: translate(7%, 10%);
+      position: absolute;
+      top: 0
+    }
+  }
+  &__right {
+    max-width: 765px;
+    width: 100%;
+    margin-left: 57px;
+    &-options {
+      display: flex;
+      margin-top: 35px;
+      &:first-child {
+        margin-top: 0;
+      }
+      &-check-1 {
+        background: url("../img/tringle-1.png") no-repeat;
+        min-width: 73px;
+        min-height: 81px;
+      }
+      &-check-2 {
+        background: url("../img/tringle-2.png") no-repeat;
+        min-width: 68px;
+        min-height: 86px;
+      }
+      &-check-3 {
+        background: url("../img/tringle-3.png") no-repeat;
+        min-width: 83px;
+        min-height: 77px;
+      }
+    }
+  }
+}
+
+.check {
+  min-width: 83px;
+}
+
+.about-box__right-options-description-text {
+  font-size: 19px;
+  color: #4f4f4f;
+  margin-left: 20px;
+  font-family: SourceSansProBold;
+}
+
+.about-btn {
+  margin: 73px auto 100px;
+}
+
+.posts-start {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.post-box {
+  flex-basis: 275px;
+  text-align: center;
+  font-family: SourceSansProBold;
+  font-size: 19px;
+  color: #4f4f4f;
+  .fas, .fab {
+    font-size: 30px;
+    position: absolute;
+    color: #fff;
+  }
+  &__triangle {
+    width: 100px;
+    height: 108px;
+    margin: 0 auto 35px;
+    background: #2290e5;
+    position: relative;
+
+    &-1 {
+      clip-path: polygon(0px 19px, 97.44% -0.23%, 75px 96.76%);
+      .fa-tag {
+        top: 31px;
+        left: 43px;
+      }
+    }
+    &-2 {
+      clip-path: polygon(2px 37px, 91.44% 1.62%, 98px 97.69%);
+      .fa-paypal {
+        top: 31px;
+        left: 53px;
+      }
+    }
+    &-3 {
+      clip-path: polygon(1px 107px, 20.44% -0.23%, 93px 56.95%);
+      .fa-desktop {
+        top: 41px;
+        left: 22px;
+      }
+    }
+    &-4 {
+      clip-path: polygon(1px 107px, 48.44% 1.62%, 99px 75.46%);
+      .fa-percent {
+        top: 45px;
+        left: 38px;
+      }
+    }
+  }
+}
+
+
